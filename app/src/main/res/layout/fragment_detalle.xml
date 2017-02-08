@@ -2,12 +2,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ruiz.pruebasolarizr.detalleFragment">
+    tools:context="com.example.ruiz.pruebasolarizr.detalleFragment"
+    android:padding="18dp">
 
-    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+
+    android:background="@drawable/detalle_fragment_fondo"
+    >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="DETALLLEEEEEEEEEEEE" />
+</RelativeLayout>
+
+
 
 </FrameLayout>

@@ -10,16 +10,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.ruiz.pruebasolarizr.Models.Cliente;
+
 
 public class detalleCliente extends AppCompatActivity{
     BottomNavigationView bottomNavigationView;
     private int mSelectedItem;
-
+private Cliente cliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_cliente);
+        cliente = this.getIntent().getExtras().getParcelable("clienteSeleccionado");
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -64,7 +67,11 @@ public class detalleCliente extends AppCompatActivity{
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
                 //mifragment = anotacionesFragment.newInstance("anotaciones", " ");
                 break;
+
         }
+        Bundle miBundle = new Bundle();
+        miBundle.putParcelable("clienteSeleccionado",cliente);
+        mifragment.setArguments(miBundle);
         // update selected item
         mSelectedItem = item.getItemId();
 

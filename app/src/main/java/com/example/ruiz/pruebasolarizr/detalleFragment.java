@@ -8,11 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.ruiz.pruebasolarizr.Models.Cliente;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link detalleFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
  * Use the {@link detalleFragment#newInstance} factory method to
  * create an instance of this fragment.
@@ -27,6 +28,7 @@ public class detalleFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    private Cliente miCliente;
 
     public detalleFragment() {
         // Required empty public constructor
@@ -54,8 +56,7 @@ public class detalleFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            miCliente = getArguments().getParcelable("clienteSeleccionado");
         }
     }
 

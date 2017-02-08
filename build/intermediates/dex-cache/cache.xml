@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_f1a9215fca42ee5714c3af629a9f5dba34bb58c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_0e4b822bbc9d522cfdd1dfb2853e2163e9d3cfd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_b7bb23e8bd8787192c43f860912a6de826fadc39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_85ce009fcb1cf35057e3533381c1c64684d77b4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c70569bfc27469327b7a98be7ce34c8f28490460\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="17a0a2a8ec9767fa86f2f756896d6fe40ef499a7">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_90ac37814c63e104f85be447fe1e8f669cdf5552\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_92867f0f42b63e160d83cc4cd8a6084cde0bc7eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_01c721ba44b68ab105ac7b86d94f5bcd4734283b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_ebfa3a173edbf630e194f63f5c74f173eb2b8ae9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_38a2005df1889cb817d4ab03d3d6ddc41ff4bd41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_f98af27ac513f461ba494e6bfc7e3bff9ad5e039\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_713297b8a4956de3910a44fd21961028b6df8172\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_172eb1bba3408cae87290180c96815b7830ddc6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_ea65c2df834369d7cc110e95b45cc6a2ee742e5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dfa1bff5ebb1a6b4b9a4b4d8b4ac5c138204f382">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fce785dbc878a1fa83067ad9b5cbffae1eda2e43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f61c86dcf8e4bb84c060fe2879ba7f3cfea77651\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d995e0429719c46c41c5d465610294bb5f7a002e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_912156f5fcba5fa9984781d72872a3310220d8cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e0a7db5ecf0690946659a507c96a8d4f74c408bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_75c1f15950682337928447884d39767ae8353fad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9b16cf42c9ad6aee58dc2e02dc276072aff709e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_883f2092f0807f7d0be633b1b1fab43c88245d8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_b77edd66de55af611b6af30169443d41256962a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7d32a5bd9e1a004d4b5a9a62c52f0b5b6a823cfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_83c6f7ac505b0dcc7e09d7ede0b950147c82bd71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Ruiz\Documents\GitHub\Solarizr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_93a0eee8b5c8bfb062c8cfbdaf7960fd673cd86e\classes.dex" />
+    </item>
+
+</items>
