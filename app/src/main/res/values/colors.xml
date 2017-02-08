@@ -2,8 +2,9 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#882D17</color>
     <color name="indianRed">#882D17</color>
     <color name="mustard">#FFDB58</color>
     <color name="chestnut">#954535</color>
+    <color name="naranjaClarito">#FFF3E0</color>
 </resources>

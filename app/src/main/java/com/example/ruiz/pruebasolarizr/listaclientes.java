@@ -16,22 +16,27 @@ import com.example.ruiz.pruebasolarizr.Models.Cliente;
 import java.util.ArrayList;
 
 public class listaclientes extends ListActivity implements ListView.OnItemClickListener {
-    ArrayList<Cliente> listaClientes= new ArrayList<>();
+    ArrayList<Cliente> listaClientes = new ArrayList<>();
     private ListView listaAndroid;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listaclientes);
-        this.listaAndroid = (ListView) findViewById(android.R.id.list);
-        listaClientes =  this.getIntent().getParcelableArrayListExtra("listaCliente");
-        setListAdapter(new miArrayAdapter(this,R.layout.fila_cliente,R.id.nombreFila,listaClientes));
-listaAndroid.setOnItemClickListener(this);
+//        if(savedInstanceState!=null) {
+            this.listaAndroid = (ListView) findViewById(android.R.id.list);
+            listaClientes = this.getIntent().getParcelableArrayListExtra("listaCliente");
+//        }else{
+//            listaClientes = null;
+//        }
+        setListAdapter(new miArrayAdapter(this, R.layout.fila_cliente, R.id.nombreFila, listaClientes));
+        listaAndroid.setOnItemClickListener(this);
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intentCliente = new Intent(this,detalleCliente.class);
-        intentCliente.putExtra("clienteSeleccionado",listaClientes.get(position));
+        Intent intentCliente = new Intent(this, detalleCliente.class);
+        intentCliente.putExtra("clienteSeleccionado", listaClientes.get(position));
         startActivity(intentCliente);
     }
 }

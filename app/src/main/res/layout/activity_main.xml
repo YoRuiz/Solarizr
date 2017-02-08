@@ -4,49 +4,64 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/naranjaClarito"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#F5F5F5"
     tools:context="com.example.ruiz.pruebasolarizr.MainActivity">
 
     <ImageView
+        android:id="@+id/iconoLogin"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/house"
         android:layout_centerHorizontal="true"
-        android:id="@+id/iconoLogin"/>
-    <EditText
+        android:src="@drawable/house" />
+    <!--EditText del nombre de usuario-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/lblNomUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/iconoLogin"
-        android:id="@+id/textoNombreLogin"
         android:layout_margin="25dp"
-        android:hint="Nombre"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:inputType="textPassword"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textoNombreLogin"
+        android:hint="@string/lblNomUsuario">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/textoNombreLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+    android:id="@+id/lblPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/lblNomUsuario"
+    android:layout_margin="25dp"
+    android:hint="@string/lblPassword">
+
+    <android.support.design.widget.TextInputEditText
         android:id="@+id/textoPasswordLogin"
-        android:hint="Contraseña"
-        android:layout_margin="25dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+</android.support.design.widget.TextInputLayout>
+
     <Button
+        android:id="@+id/botonLogin"
         android:layout_width="150dp"
         android:layout_height="30dp"
-        android:text="Login"
-android:id="@+id/botonLogin"
-        android:layout_below="@id/textoPasswordLogin"
-        android:background="@drawable/botonlogin"
-        android:textColor="@drawable/textologin"
-        android:layout_margin="25dp"
+        android:layout_below="@id/lblPassword"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_margin="25dp"
+        android:background="@drawable/botonlogin"
+        android:text="Login"
+        android:textColor="@drawable/textologin" />
+
     <TextView
+        android:id="@+id/textoError"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/botonLogin"
-        android:textColor="@color/indianRed"
-        android:id="@+id/textoError"/>
+        android:textColor="@color/indianRed" />
 </RelativeLayout>

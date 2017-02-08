@@ -5,6 +5,7 @@
     android:id="@+id/activity_detalle_cliente"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/naranjaClarito"
     tools:context="com.example.ruiz.pruebasolarizr.detalleCliente">
 
         <FrameLayout
@@ -12,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#f1f1f1">
+            >
 
         </FrameLayout>
         <android.support.design.widget.BottomNavigationView

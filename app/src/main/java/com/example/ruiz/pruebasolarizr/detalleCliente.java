@@ -43,19 +43,24 @@ public class detalleCliente extends AppCompatActivity{
     public void selectFragment(MenuItem item){
         Fragment mifragment = null;
         switch (item.getItemId()) {
-            case R.id.action_favorites:
+            case R.id.action_cliente:
                 mifragment = new detalleFragment();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
                 //mifragment = detalleFragment.newInstance("detalle"," ");
                 break;
-            case R.id.action_schedules:
+            case R.id.action_fotos:
                 mifragment = new fotosFragment();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
                 //mifragment = fotosFragment.newInstance("fotos"," ");
                 break;
 
-            case R.id.action_music:
+            case R.id.action_anotaciones:
                 mifragment = new anotacionesFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
+                //mifragment = anotacionesFragment.newInstance("anotaciones", " ");
+                break;
+            case R.id.action_mapa:
+                mifragment = new mapaFragment();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
                 //mifragment = anotacionesFragment.newInstance("anotaciones", " ");
                 break;
@@ -64,12 +69,12 @@ public class detalleCliente extends AppCompatActivity{
         mSelectedItem = item.getItemId();
 
         // uncheck the other items.
-        for (int i = 0; i< bottomNavigationView.getMenu().size(); i++) {
-            MenuItem menuItem = bottomNavigationView.getMenu().getItem(i);
-            menuItem.setChecked(menuItem.getItemId() == item.getItemId());
-        }
+//        for (int i = 0; i< bottomNavigationView.getMenu().size(); i++) {
+//            MenuItem menuItem = bottomNavigationView.getMenu().getItem(i);
+//            menuItem.setChecked(menuItem.getItemId() == item.getItemId());
+//        }
 
-        updateToolbarText(item.getTitle());
+  //      updateToolbarText(item.getTitle());
 
         if (mifragment!= null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
@@ -79,11 +84,11 @@ public class detalleCliente extends AppCompatActivity{
         }
     }
 
-
-    private void updateToolbarText(CharSequence text) {
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.setTitle(text);
-        }
-    }
+//
+//    private void updateToolbarText(CharSequence text) {
+//        ActionBar actionBar = getSupportActionBar();
+//        if (actionBar != null) {
+//            actionBar.setTitle(text);
+//        }
+//    }
 }

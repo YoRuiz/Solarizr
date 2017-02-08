@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
     <item
-        android:id="@+id/action_favorites"
+        android:id="@+id/action_cliente"
         android:enabled="true"
         android:icon="@drawable/ic_face_white_48dp"
-        android:title="Cliente"/>
+        android:title="Cliente" />
 
     <item
-        android:id="@+id/action_schedules"
+        android:id="@+id/action_fotos"
         android:enabled="true"
         android:icon="@drawable/ic_photo_camera_white_48dp"
-        android:title="Fotos"/>
+        android:title="Fotos" />
 
     <item
-        android:id="@+id/action_music"
+        android:id="@+id/action_anotaciones"
         android:enabled="true"
         android:icon="@drawable/ic_note_white_48dp"
-        android:title="Anotaciones"/>
+        android:title="Anotaciones" />
+    <item
+        android:id="@+id/action_mapa"
+        android:enabled="true"
+        android:icon="@drawable/ic_location_on_white_48dp"
+        android:title="Mapa" />
 
 </menu>
