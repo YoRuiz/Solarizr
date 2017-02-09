@@ -2,7 +2,6 @@ package com.example.ruiz.pruebasolarizr;
 
 import android.content.Intent;
 import android.os.Parcelable;
-import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
@@ -11,16 +10,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.ruiz.pruebasolarizr.Callbacks.AdminCallback;
+import com.example.ruiz.pruebasolarizr.Callbacks.ClienteCallback;
 import com.example.ruiz.pruebasolarizr.Interfaces.IAdmin;
 import com.example.ruiz.pruebasolarizr.Interfaces.ICliente;
 import com.example.ruiz.pruebasolarizr.Models.Admin;
 import com.example.ruiz.pruebasolarizr.Models.Cliente;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -110,7 +109,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 textoError.setText("Usuario o contraseña incorrectos.");
             }else{
                 Intent i = new Intent(this, listaclientes.class);
+                i.putExtra("credenciales",codifica64());
                 i.putParcelableArrayListExtra("listaCliente", (ArrayList<? extends Parcelable>) listaClientes);
+                textoError.setText("");
                 startActivity(i);
             }
         }

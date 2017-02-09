@@ -17,12 +17,15 @@ public class detalleCliente extends AppCompatActivity{
     BottomNavigationView bottomNavigationView;
     private int mSelectedItem;
 private Cliente cliente;
+    private String credenciales;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_cliente);
         cliente = this.getIntent().getExtras().getParcelable("clienteSeleccionado");
+        credenciales = this.getIntent().getStringExtra("credenciales");
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -45,6 +48,7 @@ private Cliente cliente;
 
     public void selectFragment(MenuItem item){
         Fragment mifragment = null;
+        Bundle miBundle = new Bundle();
         switch (item.getItemId()) {
             case R.id.action_cliente:
                 mifragment = new detalleFragment();
@@ -60,6 +64,7 @@ private Cliente cliente;
             case R.id.action_anotaciones:
                 mifragment = new anotacionesFragment();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,mifragment).commit();
+                miBundle.putString("credenciales",credenciales);
                 //mifragment = anotacionesFragment.newInstance("anotaciones", " ");
                 break;
             case R.id.action_mapa:
@@ -69,7 +74,7 @@ private Cliente cliente;
                 break;
 
         }
-        Bundle miBundle = new Bundle();
+
         miBundle.putParcelable("clienteSeleccionado",cliente);
         mifragment.setArguments(miBundle);
         // update selected item

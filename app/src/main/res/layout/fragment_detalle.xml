@@ -12,10 +12,70 @@
 
     android:background="@drawable/detalle_fragment_fondo"
     >
-    <TextView
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/naranjaClarito"
+        android:id="@+id/contenedorNombreDetalle"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/indianRed"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:padding="32dp"
+            android:textSize="40sp"
+            android:id="@+id/detalleNombre"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contenedorNombreDetalle"
+        android:layout_alignParentRight="true"
+        android:id="@+id/contenedorDireccionDetalle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/indianRed"
+            android:text="Dirección:"
+            android:id="@+id/lblDireccion"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblDireccion"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:id="@+id/detalleDireccion"
+            />
+    </RelativeLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="DETALLLEEEEEEEEEEEE" />
+        android:layout_below="@id/contenedorDireccionDetalle"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/indianRed"
+
+            android:text="Teléfono:"
+            android:id="@+id/lblTelefono"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblTelefono"
+
+            android:textSize="25sp"
+            android:id="@+id/detalleTelefono"
+            android:textStyle="italic"
+            />
+    </RelativeLayout>
+
 </RelativeLayout>
 
 

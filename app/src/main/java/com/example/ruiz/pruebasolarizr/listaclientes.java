@@ -36,6 +36,7 @@ public class listaclientes extends ListActivity implements ListView.OnItemClickL
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intentCliente = new Intent(this, detalleCliente.class);
+        intentCliente.putExtra("credenciales", this.getIntent().getStringExtra("credenciales"));
         intentCliente.putExtra("clienteSeleccionado", listaClientes.get(position));
         startActivity(intentCliente);
     }
